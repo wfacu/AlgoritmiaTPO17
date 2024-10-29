@@ -131,6 +131,7 @@ while True:
             
             #Bloque para determinar el volumen inicial de la etapa productiva:
             volFinalFB=int(input("Ingrese el vólumen final al cual desea llegar en su etapa productiva en litros: "))
+            volFinalFB = max(min(volFinalFB, 2200), 300)
             Bandera=True
             while Bandera:
                 if volFinalFB<=550 and volFinalFB>= 300:
@@ -145,7 +146,7 @@ while True:
                 else:
                     print("El valor de volúmen Final ingresado no está dentro del rango permitido.")
                     volFinalFB = float(input("Ingrese un nuevo valor para volFinalFB dentro del rango permitido: "))
-
+                    volFinalFB = max(min(volFinalFB, 2200), 300)
             cantdiasFB=int(input("Ingrese la cantidad de días de la etapa productiva que tendrá su proceso: "))
             periodoFeed=int(input("Ingrese cada cuántos días se agregará el Feed: "))
             
