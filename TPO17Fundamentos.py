@@ -59,15 +59,10 @@ def cargar_datos_proceso(nombre_molecula, volInicialFB, cantdiasFB, calcular_dia
     Parámetros de ingreso: nombre_molecula,volInicialFB,cantdiasFB,calcular_dias_Exp.
     """
     proceso = []
-
     proceso.append(nombre_molecula)
-    
     proceso.append("{:.1f}".format(calcular_dias_Exp))
-
     proceso.append(volInicialFB)
-    
     proceso.append(cantFeedPorAgregado)
-
     proceso.append(calcular_dias_Exp + cantdiasFB)
         
     volumen_sol_adicional = agregar_solucion_adicional()
@@ -177,5 +172,4 @@ while True:
         
         else:
             print("Opción no válida. Por favor, intente nuevamente.")
-
 #######################################################################################
