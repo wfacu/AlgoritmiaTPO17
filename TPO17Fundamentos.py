@@ -43,7 +43,7 @@ def agregar_solucion_adicional():
     Preguntar si se desea agregar una solución adicional durante la etapa productiva, 
     en caso afirmativo consultar qué volumen de esta solución se agregará.
     """
-    agregar_solucion = input("¿Desea agregar una solución adicional durante la etapa productiva? (si/no): ").strip().lower().replace('í', 'i') # Comandos para pasar la respuesta ingresada por teclado a minúscula y remover el acento de ser necesario.
+    agregar_solucion = input("¿Desea agregar una solución adicional durante la etapa productiva? (si/no): ") # Comandos para pasar la respuesta ingresada por teclado a minúscula y remover el acento de ser necesario.
     if agregar_solucion == "si" or agregar_solucion == "sí" or agregar_solucion == "Si" or agregar_solucion == "Sí":
         volumen_adicional = float(input("Ingrese el volumen de la solución adicional en ml que se añadirá en cada agregado: "))
         periodo_sol_adicional = float(input("¿Por cuantos días agregará esta solución?: "))
