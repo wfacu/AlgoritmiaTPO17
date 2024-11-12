@@ -6,7 +6,7 @@ El objetivo principal del código es permitir a estas empresas generar y almacen
 <h1>Conceptos básicos:</h1>
 <ul>
 <li><b>VCD (Viable Cell Density (Densidad de Células Viables)):</b> Representa la cantidad de células vivas o viables presentes en un volumen determinado de medio de cultivo, excluyendo las células muertas.</li>
-<li><b>VCDi:</b> VCD inicial, es la VCD con la que se inicia una etapa, por lo general los rangos van desde 0.3 a 1 x106 células/mL.</li>
+<li><b>VCDi:</b> VCD inicial, es la VCD con la que se inicia una etapa, por lo general los rangos van desde 0.3 a 1 x10⁶ células/mL.</li>
 <li><b>VCDtarget:</b> es la VCD objetivo a la que se desea llegar en cada pasaje.</li>
 <li><b>Pasaje:</b> subetapa de la etapa de expansión.</li>
 <li><b>Medio de expansión:</b> Es una solución nutritiva utilizada para alimentar y promover el crecimiento de células durante la etapa de expansión celular. Este medio contiene una composición específica de nutrientes, metabolitos, vitaminas, sales y factores de crecimiento necesarios para optimizar la proliferación y la viabilidad celular. Su objetivo principal es aumentar la densidad celular y preparar a las células para la siguiente etapa del proceso biotecnológico.</li>
@@ -34,12 +34,13 @@ A su vez, dependiendo del tipo celular, del producto y del medio productivo a ut
 </ol>
 <h1>Rango de valores permitidos a ingresar por el usuario:</h1>
 <ul>
-<li>VCD inicial de cada pasaje: Los rangos permitidos van desde 0.3 a 1 x106 células/mL. El usuario debe ingresar solo el valor sin “x106 células/mL”.
-Cantidad de pasajes: Los rangos permitidos son de 3 a 6. Números enteros.</li>
-<li>Volúmenes iniciales de los pasajes: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 10 a 50 mL para el primer pasaje, 100 a 500 mL para el segundo, 1500 a 3000 mL para el segundo y si existen mas pasajes el 4 de 5000 a 10000 mL, el 5 de 15000 a 25000 mL y el 6 de 50000 mL a 1 L.</li>
-<li>VCD target para cada pasaje: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 1 a 8 x106 células/mL. El usuario debe ingresar solo el valor sin “x106 células/mL”.</li>
+<li>VCD inicial de cada pasaje: Los rangos permitidos van desde 0.3 a 1 x10⁶ células/mL. El usuario debe ingresar solo el valor sin “x10⁶ células/mL”.</li>
+<li>Cantidad de pasajes: Los rangos permitidos son de 3 a 6. Números enteros.</li>
+<li>Volúmenes iniciales de los pasajes: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 10 mL a 1000 mL.</li>
+<li>Días por pasaje: Los rangos permitidos pueden ser 3 o 4. Números enteros.</li>
+<li>VCD target para cada pasaje: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 1 a 8 x10⁶ células/mL. El usuario debe ingresar solo el valor sin “x10⁶ células/mL”.</li>
 <li>Días de la etapa productiva: Los rangos permitidos para esta variable van desde 9 a 16 días.</li>
-<li>Cada cuántos días se agregará el Feed: rangos permitidos desde todos los días a cada 3 días.</li>
+<li>Cada cuántos días se agregará el Feed: rangos permitidos desde 2 a cada 3 días.</li>
 <li>Volumen de la solución adicional en ml: rangos permitidos desde 50 a 500 mL.</li>
-<li>Por cuántos días agregará: Depende de la duración de la etapa productiva, va desde 1 día hasta cubrir toda la etapa.</li>
+<li>Por cuántos días agregará: Va desde 1 a 9.</li>
 </ul>
