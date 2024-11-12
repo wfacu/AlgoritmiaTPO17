@@ -36,10 +36,11 @@ A su vez, dependiendo del tipo celular, del producto y del medio productivo a ut
 <ul>
 <li>VCD inicial de cada pasaje: Los rangos permitidos van desde 0.3 a 1 x10⁶ células/mL. El usuario debe ingresar solo el valor sin “x10⁶ células/mL”.</li>
 <li>Cantidad de pasajes: Los rangos permitidos son de 3 a 6. Números enteros.</li>
-<li>Volúmenes iniciales de los pasajes: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 10 a 50 mL para el primer pasaje, 100 a 500 mL para el segundo, 1500 a 3000 mL para el segundo y si existen mas pasajes el 4 de 5000 a 10000 mL, el 5 de 15000 a 25000 mL y el 6 de 50000 mL a 1 L.</li>
+<li>Volúmenes iniciales de los pasajes: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 10 mL a 1000 mL.</li>
+<li>Días por pasaje: Los rangos permitidos pueden ser 3 o 4. Números enteros.</li>
 <li>VCD target para cada pasaje: la idea de estas variables es que aumenten progresivamente por cada pasaje ya que esta etapa (etapa de expansión) tiene como objetivo aumentar la cantidad de células. Los rangos permitidos van desde 1 a 8 x10⁶ células/mL. El usuario debe ingresar solo el valor sin “x10⁶ células/mL”.</li>
 <li>Días de la etapa productiva: Los rangos permitidos para esta variable van desde 9 a 16 días.</li>
 <li>Cada cuántos días se agregará el Feed: rangos permitidos desde todos los días a cada 3 días.</li>
 <li>Volumen de la solución adicional en ml: rangos permitidos desde 50 a 500 mL.</li>
-<li>Por cuántos días agregará: Depende de la duración de la etapa productiva, va desde 1 día hasta cubrir toda la etapa.</li>
+<li>Por cuántos días agregará: Va desde 1 a 9.</li>
 </ul>
