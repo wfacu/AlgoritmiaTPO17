@@ -1,4 +1,4 @@
-<b>Introducción:</b>
+<h1>Introducción:</h1>
 Las industrias farmacéuticas en las que este proyecto se enfoca se tratan de empresas dedicadas a la producción de medicamentos y/o tratamientos por medio de procesos biotecnológicos. 
 Estas empresas utilizan organismos vivos o sus derivados, como células, proteínas, o genes, para llevar a cabo su producción.
 En el presente proyecto, se desarrolla un código de software diseñado para ser utilizado por empresas biotecnológicas en la gestión de procesos productivos. 
