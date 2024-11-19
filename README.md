@@ -45,3 +45,14 @@ A su vez, dependiendo del tipo celular, del producto y del medio productivo a ut
 <li>Volumen de la solución adicional en ml: rangos permitidos desde 50 a 500 mL.</li>
 <li>Por cuántos días agregará: Va desde 1 a 9.</li>
 </ul>
+
+<small>
+  <img src="https://facundo-seib.github.io/quad/images/LogoUADE.png" alt="Logo UADE" width="50">
+  Proyecto presentado con fines educativos. Los integrantes son los siguientes:
+  <ul>
+    <li>Erika Tosto</li>
+    <li>Facundo Pall</li>
+    <li>Valentín Romero</li>
+  </ul>
+</small>
+
