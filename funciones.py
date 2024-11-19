@@ -5,8 +5,8 @@ def listaVCDtarget(cantPasajes):
     for i in range(cantPasajes):
         VCDtargetIngreso = float(input(f"Ingrese el valor de VCD target para el pasaje {i+1} (considerando que debe aumentar progresivamente el valor entre cada pasaje): ").replace(',', '.'))
         while VCDtargetIngreso < 1 or VCDtargetIngreso > 8:
-            print("El valor de VCD target debe estar entre 8 y 1.")
-            VCDtargetIngreso = input(f"Ingrese el valor de VCD target para el pasaje {i+1} (considerando que debe aumentar progresivamente el valor entre cada pasaje): ").replace(',', '.')
+            print("El valor de VCD target debe estar entre 1 y 8.")
+            VCDtargetIngreso = float(input(f"Ingrese el valor de VCD target para el pasaje {i+1} (considerando que debe aumentar progresivamente el valor entre cada pasaje): ").replace(',', '.'))
         VCDtarget = float(VCDtargetIngreso)
         VCDstarget.append(VCDtarget)
     return VCDstarget
