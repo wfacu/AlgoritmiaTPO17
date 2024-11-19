@@ -1,3 +1,4 @@
+<img src="https://i.ibb.co/LP2rwFw/oie-transparent.png" alt="Imagen centrada">
 <h1>Introducción:</h1>
 Las industrias farmacéuticas en las que este proyecto se enfoca se tratan de empresas dedicadas a la producción de medicamentos y/o tratamientos por medio de procesos biotecnológicos. 
 Estas empresas utilizan organismos vivos o sus derivados, como células, proteínas, o genes, para llevar a cabo su producción.
